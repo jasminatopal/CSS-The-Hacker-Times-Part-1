@@ -11,7 +11,6 @@ header {
 
 main {
     background-color: white;
-
 }
 
 .newspaper-container {
@@ -32,6 +31,14 @@ ul {
     border-top: 1px solid #777;
 }
 
+a {
+    color: #777
+}
+
+a:link { 
+    text-decoration: none; 
+}
+
 li {
     display: inline-block;
     padding: 0.25em;
@@ -50,18 +57,22 @@ div {
     background-color: white;
 }
 
-ul {
-    color: #777;
-}
-
-img {
-    max-width: 100%; 
-    height: auto;
-}
-
 .more-articles {
-  display: inline-block;
-  border-top: 1px solid #ddd;
+    border-top: 1px solid #ddd;
 }
 
+div {
+  display: inline-block;
+}
 
+section {
+    display: inline-block;
+    padding: 1em;
+}
+
+nav {
+    position:sticky;
+    top: 0;
+    background-color: white;
+
+}
